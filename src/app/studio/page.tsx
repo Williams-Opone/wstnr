@@ -57,17 +57,19 @@ export default async function StudioPage() {
 
         {/* Visual narrative */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center mb-20 md:mb-32">
-          <div className="w-full aspect-[4/5] bg-zinc-950 border border-zinc-900 overflow-hidden group">
-            <Image
-              src="/images/about_macro1.jpg"
-              alt="Textile Grain"
-              width={800}
-              height={1000}
-              className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              priority
-            />
-          </div>
+        <div className="w-full aspect-[4/5] bg-zinc-950 border border-zinc-900 overflow-hidden group relative">
+        <video
+          src="https://res.cloudinary.com/dotcy7lhz/video/upload/v1786716010/9257197-uhd_2160_4096_25fps_1_1_dymvyn.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-105"
+        />
+        {/* Dark gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/20 pointer-events-none" />
+      </div>
           <div className="flex flex-col justify-center max-w-md">
             <span className="font-mono text-[10px] text-zinc-500 tracking-widest mb-4">
               VOLUME_I // THE WEIGHT OF COTTON
@@ -96,7 +98,7 @@ export default async function StudioPage() {
           </div>
           <div className="md:col-span-2 w-full h-72 md:h-80 bg-zinc-950 border border-zinc-900 overflow-hidden">
             <Image
-              src="/images/about_wide.jpg"
+              src="https://res.cloudinary.com/dotcy7lhz/image/upload/v1786712709/pexels-1434506-11388583_uy5nwt.jpg"
               alt="Studio Look"
               width={1200}
               height={600}
