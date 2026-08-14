@@ -37,7 +37,7 @@ export default function StudioLocation() {
 
         <div className="md:w-1/2 relative h-64 md:h-auto">
           <Image
-            src="/images/studio/studio-map.jpg"
+            src="https://res.cloudinary.com/dotcy7lhz/image/upload/v1786712709/pexels-1434506-11388583_uy5nwt.jpg"
             alt="Studio location"
             fill
             className="object-cover border border-zinc-900 opacity-70"

@@ -98,7 +98,7 @@ export default async function StudioPage() {
           </div>
           <div className="md:col-span-2 w-full h-72 md:h-80 bg-zinc-950 border border-zinc-900 overflow-hidden">
             <Image
-              src="https://res.cloudinary.com/dotcy7lhz/image/upload/v1786712709/pexels-1434506-11388583_uy5nwt.jpg"
+              src="https://res.cloudinary.com/dotcy7lhz/image/upload/v1786732718/pexels-hatice-genc-3580692-32797481_mtvofc.jpg"
               alt="Studio Look"
               width={1200}
               height={600}
